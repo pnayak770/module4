@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5px;
+    font-size: 30px;
+}
+.latter{
+    padding: 5px 40px;
+    box-shadow: 1px 5px 10px 10px  rgb(205, 200, 200);
+}
+.button{
+    padding: 5px 40px;
+    box-shadow: 1px 5px 10px 10px  rgb(205, 200, 200);
+    color: green;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.text{
+    box-shadow: 1px 5px 10px 10px  rgb(205, 200, 200);
+    padding: 10px 40px;
+}
+span{
+    color: green;
+}
+.content{
+    display: none;
+}
+.container.active .text{
+    display: none;
+}
+.container.active .content{
+    display: flex;
+}
