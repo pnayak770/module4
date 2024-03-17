@@ -1,0 +1,20 @@
+.body {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(rgb(248, 239, 239),black);
+  }
+ nav{
+    background-color: rgb(248, 239, 239);
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 10;
+}  
+h2{
+    color: red
+}
+footer{
+    background-color: rgb(37, 36, 36);
+}
+img{
+    border-radius: 35px;
+}
